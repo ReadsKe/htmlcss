@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(21, 232, 232);
+}
+#header
+{
+    background-color: black;
+    color: aliceblue;
+    padding: 10%;
+    
+
+}
+
+#landing-Page
+{
+    background-color: #ce2b2b;
+    padding: 8%;
+    margin-top: 10px;
+}
