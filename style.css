@@ -1,25 +1,65 @@
+*{
+    margin: 0px;
+}
 body{
     background-color: rgb(21, 232, 232);
 }
+
+/* header styles */
 #header
 {
     background-color: black;
     color: aliceblue;
     padding:5%;
+    border-radius: 20px;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
     
 
 }
 
+/* landing styles */
 #landing-Page
 {
     background-color: #ce2b2b;
     padding:8%;
     margin-top:5px;
+    border-radius: 8px;
+    margin: 20px;
 }
 
-#title
+#header h1
 {
-    font-size: large;
-    font-weight: 900;
-    font-style: normal;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(21, 224, 55);
+
 }
+
+a
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: aquamarine;
+    text-decoration: none;
+    
+}
+
+a:link
+{
+    color: aqua;
+}
+
+a:hover {
+    color: rgb(255, 240, 240);
+    background-color: rgb(255, 72, 0);
+    padding: 3px;
+    border-radius: 4px;
+}
+
