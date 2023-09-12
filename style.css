@@ -15,11 +15,11 @@ body{
     background-color: #ce2b2b;
     padding:8%;
     margin-top:5px;
-}h2
+}
 
-h1
+#title
 {
-    font-size: larger;
-    font-weight: bolder;
-    color: #e8be13;
+    font-size: large;
+    font-weight: 900;
+    font-style: normal;
 }
